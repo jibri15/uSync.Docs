@@ -101,7 +101,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/Jumoo/uSync.Docs/edit/v9/',
+            'https://github.com/Jumoo/uSync.Docs/edit/master',
           lastVersion: 'current',
           versions: {
             current: {
