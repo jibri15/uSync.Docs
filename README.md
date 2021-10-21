@@ -2,6 +2,8 @@
 
 This is the location of the documentation for uSync for Umbraco
 
+You can read the documentation @ https://usync.jumoo.co.uk/
+
 If you have any issues with uSync you should raise them on the Issues repository for the package: 
 
 https://github.com/kevinjump/usync
