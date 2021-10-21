@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Lato:400,700,900|Barlow|Pacifico|Material+Icons');
+
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  /*
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: rgb(26, 136, 112);
+  --ifm-color-primary-light: rgb(70, 203, 174);
+  --ifm-color-primary-lighter: rgb(102, 212, 189);
+  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  */
+  --ifm-color-primary: #039BE5
+  ;
+  --ifm-color-primary-dark: #0288D1;
+  --ifm-color-primary-darker: #0277BD;
+  --ifm-color-primary-darkest: #01579B;
+  --ifm-color-primary-light: #03A9F4;
+  --ifm-color-primary-lighter: #4FC3F7;
+  --ifm-color-primary-lightest: #B3E5FC;
+
+  --ifm-code-font-size: 95%;
+  --ifm-heading-font-family: 'Barlow', 'Open Sans', sans-serif; 
+  --ifm-heading-font-weight: 800;
+  --ifm-font-family-base: 'Lato', 'Open Sans', 'Hind Guntur', sans-serif;
+  --ifm-font-size-base: 14pt;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.markdown img {
+  box-shadow: 0px 0px 5px 3px #eee;
+  display: block;
+  margin: 0 auto;
+}
+
+a.feature-link {
+  display: block;
+  margin: 1em 0;
+  padding: 2em 0;
+}
+
+a.feature-link:hover {
+  text-decoration: none;
+  box-shadow: 0 0 10px #607d8b;
+
+}
+
+.feature-title {
+  font-size: 40pt;
+  font-style:  normal;
+}
+
+.hero__title { 
+  font-family: 'pacifico';
+  font-weight: 400;
+  font-size: 80pt;
+
+}

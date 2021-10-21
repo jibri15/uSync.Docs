@@ -1,0 +1,36 @@
+If you are stating from zero, you will need a couple of things to add to the documentation on this site. 
+
+## Github account
+
+1. Github account 
+   https://github.com/
+
+2. A Fork of the github repo. (click on fork top right)
+   https://github.com/Jumoo/uSync.Docs
+
+
+## Software you need make this work.
+
+> *Note. you can use other tools, but you need a git client, and editor, and the tools to run the site locally.*
+
+ 1. Github Desktop (https://desktop.github.com/)
+ 2. Visual studio code (https://code.visualstudio.com/)
+ 3. Install Node.js (https://nodejs.org/en/)
+ 4. Install Yarn `npm install -g yarn`
+
+## Internal demo site: 
+(available only in Jumoo towers)
+http://usync.cube.jumoo.co.uk/umbraco
+
+## Running locally.
+
+```console
+yarn start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+## Committing back to the repo. 
+When you have made any changes, you will be able to submit a Pull Request (PR) - that will propose your changes back to the main copy (repository) of the site. 
+
+Once a PR has been merged into the main repository, the site will be build and published online.
