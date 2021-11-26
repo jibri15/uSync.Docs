@@ -10,7 +10,7 @@ The main config for uSync is stored in the `usync8.config` file. Most of the mai
   <BackOffice>
     <Folder>~/uSync/v8/</Folder>
     <FlatFolders>True</FlatFolders>
-    <ImportAtStartup>False</ImportAtStartup>
+    <ImportAtStartup Group="All">False</ImportAtStartup>
     <ExportAtStartup>False</ExportAtStartup>
     <ExportOnSave>True</ExportOnSave>
     <UseGuidFilenames>False</UseGuidFilenames>
@@ -37,7 +37,8 @@ Setting | Values | Note
 Folder | Path to folder | Location in which uSync will save and read the exported files.
 FlatFolders | true/false | Determines if uSync will store the files in a flat or structured folder structure.
 ImportAtStartup | true/false | Should uSync run an import when the Umbraco site starts up (default: true).
-ExportAtStartup | true/false | Should uSync run an export when the umbraco site starts up (default: false).
+Group | All/Settings/Content | Which set of handlers should uSync use during import at startup. For example, if set to *Settings* only settings will be imported on start up.
+ExportAtStartup | true/false | Should uSync run an export when the Umbraco site starts up (default: false).
 ExportOnSave | true/false | Should uSync produce an export when an item is saved inside Umbraco (default: true).
 UseGuidFileNames | true/false | Should uSync use the guid of an item as its file name. This ensures there are no clashes in names, but makes it harder to manually read what settings are in a folder (default: false).
 BatchSave | true/false | When doing a large import, save elements in batches. This feature exists to try and circumvent issues that can occur when Models Builder is enabled as lots of saves can cause a site to restart. 
